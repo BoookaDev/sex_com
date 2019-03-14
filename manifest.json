@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Context Menu Extension",
+  "description": "Sample extension for the “Making your first extension” article",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "assets/icon-16.png"
+  }
+}

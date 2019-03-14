@@ -1,0 +1,15 @@
+{
+  "name": "dex.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "ts": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.3.3333",
+    "yarn": "^1.13.0"
+  }
+}
