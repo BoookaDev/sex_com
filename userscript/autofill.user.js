@@ -17,11 +17,11 @@
         let input = document.querySelector(`input#${span.getAttribute('for')}`);
         span.addEventListener('click', () => {
             store(`tags`, input.value, input.checked);
-        })
+        });
     });
     $('#board, #title').change((e) => {
         store(e.target.id, e.target.value);
-    })
+    });
 
     function restore(){
         let json = localStorage.getItem('create') || "{}";
